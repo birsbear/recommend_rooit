@@ -1,0 +1,14 @@
+[owner]
+name = "YiChen Chiu"
+
+[args]
+data_path = './data/recommended-data-sample 9_11.xlsx'
+db_select = 'mongo'
+
+[database]
+  [database.mongo]
+    host = "mongodb"
+    user_name = "root"
+    user_password = "rooit"
+    port = "27017"
+    db = "recommend_system"
